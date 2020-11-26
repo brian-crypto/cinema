@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK-->
+    <link rel="stylesheet" href="Glider.js-master/glider.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Cine</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header__btn">
+            <span><i class="fas fa-bars"></i></span>
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu__logo">Cine</li>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Estrenos</a></li>
+            <li><a href="">Proximamente</a></li>
+        </ul>
+        <div class="header__redes">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </header>
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="contenedor">
+                <h1>Cine - Películas</h1>
+
+                <div class="inicio__carousel">
+                    <button aria-label="Anterior" class="inicio__carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <div class="inicio__carousel__lista">
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/00.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/01.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/02.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/03.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/04.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/05.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/06.jpg" alt="">
+                        </div>
+
+                        <div class="inicio__carousel__lista__elemento">
+                            <img src="img/07.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <button aria-label="Siguiente" class="inicio__carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <div role="tablist" class="inicio__carousel__indicadores"></div>
+                </div>
+            </div>
+        </section>
+        <section class="estrenos" id="estrenos">
+            
+        </section>
+    </main>
+    <script src="Glider.js-master/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d78e61024.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
